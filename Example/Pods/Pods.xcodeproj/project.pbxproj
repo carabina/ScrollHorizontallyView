@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B7F6F2004D4D73B23C054F58EA9DD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1472C18AFEA53C4CEB5118FBD2C264FF /* ScrollHorizontallyCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 945B55DFF4DAD9FDC730430E39825D99 /* ScrollHorizontallyCell.xib */; };
+		22515B950D4D3286ECE28E03C9EB5F4F /* Pods-ScrollHorizontally_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0FAC5C7EF3E90AB75DC55762AF81BA /* Pods-ScrollHorizontally_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C413F9502D40F1EDBFD99B1B354F69D /* ScrollHorizontallyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945B55DFF4DAD9FDC730430E39825D99 /* ScrollHorizontallyCell.xib */; };
+		3840310F13F2E9DD3555F4CDD182FE6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3B6FFE52EB5F1F73599136ED88FB39A7 /* ScrollHorizontallyCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = 4E783F6AE663CF3522FAB516B0F22044 /* ScrollHorizontallyCell.swift */; };
+		3EB88CF4241063CE9B84A348F3CFC5CB /* Pods-ScrollHorizontally_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C2B8AFF40B46FCAB6B473EFBA53DD /* Pods-ScrollHorizontally_Tests-dummy.m */; };
+		9A09864BC13973DBCD1B90D36B45AAF1 /* Pods-ScrollHorizontally_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E19F354CEC991AA0461D92EFA1CC99C /* Pods-ScrollHorizontally_Example-dummy.m */; };
+		A37726815370A8BA9B7B672B3DB25A84 /* ScrollHorizontallyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DFF4B7DEAF21C86E571C7618CD923E /* ScrollHorizontallyView.swift */; };
+		AEE69BC7EC7EA6067FD907AA871EDC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B280BA106DC7E92EBE42F938C01F53FC /* Pods-ScrollHorizontally_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3551A4D56DFF41042DE5244C0911837A /* Pods-ScrollHorizontally_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F30A9BAA6058041D390D33B94475CB /* ScrollHorizontally-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE8A5B460D5852F2832FB4E9AF1F964 /* ScrollHorizontally-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA13A30911D182D1049C1F437202FC1D /* ScrollHorizontallyView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 44DFF4B7DEAF21C86E571C7618CD923E /* ScrollHorizontallyView.swift */; };
+		EFADAF6162BDA70BD642D2F5381B8C3D /* ScrollHorizontallyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E783F6AE663CF3522FAB516B0F22044 /* ScrollHorizontallyCell.swift */; };
+		FB381463E39F212F3899F9D8EBCC93E1 /* ScrollHorizontally-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2613C39360D5E28D0E68470FD5E77470 /* ScrollHorizontally-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E97E82649A3526B0135AAB110E12E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C4F0BEC9A04B520A53F7DC4E6D3478;
+			remoteInfo = ScrollHorizontally;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ADC7CDB83E215F1531A450BD5051E32 /* ScrollHorizontally.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollHorizontally.framework; path = ScrollHorizontally.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D85A50360C9560E2213C7DB4A3EE49D /* Pods-ScrollHorizontally_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScrollHorizontally_Tests.modulemap"; sourceTree = "<group>"; };
+		1E19F354CEC991AA0461D92EFA1CC99C /* Pods-ScrollHorizontally_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollHorizontally_Example-dummy.m"; sourceTree = "<group>"; };
+		2613C39360D5E28D0E68470FD5E77470 /* ScrollHorizontally-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollHorizontally-dummy.m"; sourceTree = "<group>"; };
+		2D2BCF043AB6FDE6DB5EFC886D8DAECC /* ScrollHorizontally.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ScrollHorizontally.modulemap; sourceTree = "<group>"; };
+		2FC9585C13F864D3E06CF86E820DE554 /* Pods_ScrollHorizontally_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollHorizontally_Tests.framework; path = "Pods-ScrollHorizontally_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3551A4D56DFF41042DE5244C0911837A /* Pods-ScrollHorizontally_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollHorizontally_Example-umbrella.h"; sourceTree = "<group>"; };
+		3643DEDF8A47867E82A4C8ACA98174F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365F571597D6CF3F5B57E48DDFA4689F /* ScrollHorizontally-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollHorizontally-prefix.pch"; sourceTree = "<group>"; };
+		36B1CE7A4929924ADFB0572FA3B97E9F /* Pods-ScrollHorizontally_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollHorizontally_Tests-resources.sh"; sourceTree = "<group>"; };
+		36FAE855E90D56E1D663F280CFA73288 /* Pods-ScrollHorizontally_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollHorizontally_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E3743C62CBE9288558D356F876C5605 /* Pods-ScrollHorizontally_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollHorizontally_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44DFF4B7DEAF21C86E571C7618CD923E /* ScrollHorizontallyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollHorizontallyView.swift; sourceTree = "<group>"; };
+		44E304D739FFDADB00785B2E8C8BAD44 /* Pods-ScrollHorizontally_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollHorizontally_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D89B6AE2B22B28ECF7E59E36227B3DA /* Pods-ScrollHorizontally_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollHorizontally_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E783F6AE663CF3522FAB516B0F22044 /* ScrollHorizontallyCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollHorizontallyCell.swift; sourceTree = "<group>"; };
+		4FE8A5B460D5852F2832FB4E9AF1F964 /* ScrollHorizontally-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollHorizontally-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C0FAC5C7EF3E90AB75DC55762AF81BA /* Pods-ScrollHorizontally_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollHorizontally_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7E9C1F93FD26DEA3E30DF2AD2E4E5F1C /* Pods-ScrollHorizontally_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollHorizontally_Example-resources.sh"; sourceTree = "<group>"; };
+		8D702E4B89A6705813698C79AB32CE11 /* Pods-ScrollHorizontally_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollHorizontally_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		92B17441C8D3C90619322617F088A3FB /* Pods-ScrollHorizontally_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollHorizontally_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945B55DFF4DAD9FDC730430E39825D99 /* ScrollHorizontallyCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ScrollHorizontallyCell.xib; sourceTree = "<group>"; };
+		A3013351A964D44450CEAC1C99D90E01 /* Pods-ScrollHorizontally_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollHorizontally_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A606D34392A48DE4C9D2ABF264408082 /* Pods_ScrollHorizontally_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollHorizontally_Example.framework; path = "Pods-ScrollHorizontally_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6760BE222F1B4664868F64503FBC81E /* Pods-ScrollHorizontally_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollHorizontally_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB5FC9E94E77350FBA1595149C319AD0 /* Pods-ScrollHorizontally_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScrollHorizontally_Example.modulemap"; sourceTree = "<group>"; };
+		CC4C2B8AFF40B46FCAB6B473EFBA53DD /* Pods-ScrollHorizontally_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollHorizontally_Tests-dummy.m"; sourceTree = "<group>"; };
+		D58D8441E3CF29242DAD6A876313F9C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA28EB6118AB141ABBC1FBF462123D2 /* Pods-ScrollHorizontally_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollHorizontally_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFAAEC6F0C3039E263788854FCFA237C /* Pods-ScrollHorizontally_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollHorizontally_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F02F9D2D0575E4F3455F5C91DE18B09C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2337427A4EA4B9372D91C0986AEA1BB /* ScrollHorizontally.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollHorizontally.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E200DB45F081F8EF1C0254644DF41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE69BC7EC7EA6067FD907AA871EDC04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6190754BD23E2E19BED515133EDAC709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B7F6F2004D4D73B23C054F58EA9DD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5222CE1E0001FE5B8D07577F0DA0E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3840310F13F2E9DD3555F4CDD182FE6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EA547D3AF00E2AD8995C370D384D99 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E783F6AE663CF3522FAB516B0F22044 /* ScrollHorizontallyCell.swift */,
+				945B55DFF4DAD9FDC730430E39825D99 /* ScrollHorizontallyCell.xib */,
+				44DFF4B7DEAF21C86E571C7618CD923E /* ScrollHorizontallyView.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DDC300D66348B72B88ACB533D75ABDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74DE97ECA9C01577D96A71145D3387F9 /* ScrollHorizontally */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		446A7A6A1B3D24F02C019D3284416E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A606D34392A48DE4C9D2ABF264408082 /* Pods_ScrollHorizontally_Example.framework */,
+				2FC9585C13F864D3E06CF86E820DE554 /* Pods_ScrollHorizontally_Tests.framework */,
+				0ADC7CDB83E215F1531A450BD5051E32 /* ScrollHorizontally.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F08C59F38187AC9411095735FF152E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D58D8441E3CF29242DAD6A876313F9C3 /* Info.plist */,
+				2D2BCF043AB6FDE6DB5EFC886D8DAECC /* ScrollHorizontally.modulemap */,
+				F2337427A4EA4B9372D91C0986AEA1BB /* ScrollHorizontally.xcconfig */,
+				2613C39360D5E28D0E68470FD5E77470 /* ScrollHorizontally-dummy.m */,
+				365F571597D6CF3F5B57E48DDFA4689F /* ScrollHorizontally-prefix.pch */,
+				4FE8A5B460D5852F2832FB4E9AF1F964 /* ScrollHorizontally-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScrollHorizontally";
+			sourceTree = "<group>";
+		};
+		74DE97ECA9C01577D96A71145D3387F9 /* ScrollHorizontally */ = {
+			isa = PBXGroup;
+			children = (
+				908BB44BCAAF5837130DC7D98BCA7024 /* Classes */,
+			);
+			name = ScrollHorizontally;
+			path = ScrollHorizontally;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7FEB1ADE330F43EE56DB55C997430B29 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				446A7A6A1B3D24F02C019D3284416E5E /* Products */,
+				A03B1DC611463B7C95A7A5619AB1A116 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FEB1ADE330F43EE56DB55C997430B29 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3462C5211684148B78B79BFA7830984 /* ScrollHorizontally */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		908BB44BCAAF5837130DC7D98BCA7024 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A03B1DC611463B7C95A7A5619AB1A116 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA342969BE408E3F4A06E61E289F70DE /* Pods-ScrollHorizontally_Example */,
+				F32B8DB14749EB8F180323031521B9DD /* Pods-ScrollHorizontally_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA342969BE408E3F4A06E61E289F70DE /* Pods-ScrollHorizontally_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3643DEDF8A47867E82A4C8ACA98174F1 /* Info.plist */,
+				CB5FC9E94E77350FBA1595149C319AD0 /* Pods-ScrollHorizontally_Example.modulemap */,
+				92B17441C8D3C90619322617F088A3FB /* Pods-ScrollHorizontally_Example-acknowledgements.markdown */,
+				8D702E4B89A6705813698C79AB32CE11 /* Pods-ScrollHorizontally_Example-acknowledgements.plist */,
+				1E19F354CEC991AA0461D92EFA1CC99C /* Pods-ScrollHorizontally_Example-dummy.m */,
+				4D89B6AE2B22B28ECF7E59E36227B3DA /* Pods-ScrollHorizontally_Example-frameworks.sh */,
+				7E9C1F93FD26DEA3E30DF2AD2E4E5F1C /* Pods-ScrollHorizontally_Example-resources.sh */,
+				3551A4D56DFF41042DE5244C0911837A /* Pods-ScrollHorizontally_Example-umbrella.h */,
+				36FAE855E90D56E1D663F280CFA73288 /* Pods-ScrollHorizontally_Example.debug.xcconfig */,
+				EFAAEC6F0C3039E263788854FCFA237C /* Pods-ScrollHorizontally_Example.release.xcconfig */,
+			);
+			name = "Pods-ScrollHorizontally_Example";
+			path = "Target Support Files/Pods-ScrollHorizontally_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3462C5211684148B78B79BFA7830984 /* ScrollHorizontally */ = {
+			isa = PBXGroup;
+			children = (
+				3DDC300D66348B72B88ACB533D75ABDD /* Resources */,
+				DE40FCFF21A5453C04AFAAC4AFC85107 /* ScrollHorizontally */,
+				53F08C59F38187AC9411095735FF152E /* Support Files */,
+			);
+			name = ScrollHorizontally;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE40FCFF21A5453C04AFAAC4AFC85107 /* ScrollHorizontally */ = {
+			isa = PBXGroup;
+			children = (
+				30EA547D3AF00E2AD8995C370D384D99 /* Classes */,
+			);
+			name = ScrollHorizontally;
+			path = ScrollHorizontally;
+			sourceTree = "<group>";
+		};
+		F32B8DB14749EB8F180323031521B9DD /* Pods-ScrollHorizontally_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F02F9D2D0575E4F3455F5C91DE18B09C /* Info.plist */,
+				1D85A50360C9560E2213C7DB4A3EE49D /* Pods-ScrollHorizontally_Tests.modulemap */,
+				DAA28EB6118AB141ABBC1FBF462123D2 /* Pods-ScrollHorizontally_Tests-acknowledgements.markdown */,
+				3E3743C62CBE9288558D356F876C5605 /* Pods-ScrollHorizontally_Tests-acknowledgements.plist */,
+				CC4C2B8AFF40B46FCAB6B473EFBA53DD /* Pods-ScrollHorizontally_Tests-dummy.m */,
+				A3013351A964D44450CEAC1C99D90E01 /* Pods-ScrollHorizontally_Tests-frameworks.sh */,
+				36B1CE7A4929924ADFB0572FA3B97E9F /* Pods-ScrollHorizontally_Tests-resources.sh */,
+				7C0FAC5C7EF3E90AB75DC55762AF81BA /* Pods-ScrollHorizontally_Tests-umbrella.h */,
+				44E304D739FFDADB00785B2E8C8BAD44 /* Pods-ScrollHorizontally_Tests.debug.xcconfig */,
+				C6760BE222F1B4664868F64503FBC81E /* Pods-ScrollHorizontally_Tests.release.xcconfig */,
+			);
+			name = "Pods-ScrollHorizontally_Tests";
+			path = "Target Support Files/Pods-ScrollHorizontally_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48A6B1AC100B345BFE26B765C76686C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F30A9BAA6058041D390D33B94475CB /* ScrollHorizontally-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7A1A77C877FF72BD179276C699A74A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22515B950D4D3286ECE28E03C9EB5F4F /* Pods-ScrollHorizontally_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC237478F607E14022D2D7A476EB68F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B280BA106DC7E92EBE42F938C01F53FC /* Pods-ScrollHorizontally_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35DAF3110E2E02B2C67DBEA43E74D56E /* Pods-ScrollHorizontally_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D1D37D96ACB828817F84F21482EF6A /* Build configuration list for PBXNativeTarget "Pods-ScrollHorizontally_Example" */;
+			buildPhases = (
+				EDF000D9D4D900ED2A568A0BAD79C076 /* Sources */,
+				6190754BD23E2E19BED515133EDAC709 /* Frameworks */,
+				DC237478F607E14022D2D7A476EB68F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3FC58C8266D3029083D5E38D77E00F /* PBXTargetDependency */,
+			);
+			name = "Pods-ScrollHorizontally_Example";
+			productName = "Pods-ScrollHorizontally_Example";
+			productReference = A606D34392A48DE4C9D2ABF264408082 /* Pods_ScrollHorizontally_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CD9A6D28E46E706DCFE7E02478E1DC3 /* Pods-ScrollHorizontally_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB902B49715E47D12374AA95BB1C687 /* Build configuration list for PBXNativeTarget "Pods-ScrollHorizontally_Tests" */;
+			buildPhases = (
+				D8D5CD1AC87FC34DB52D4EB203D33E8C /* Sources */,
+				50E200DB45F081F8EF1C0254644DF41F /* Frameworks */,
+				AD7A1A77C877FF72BD179276C699A74A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScrollHorizontally_Tests";
+			productName = "Pods-ScrollHorizontally_Tests";
+			productReference = 2FC9585C13F864D3E06CF86E820DE554 /* Pods_ScrollHorizontally_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97C4F0BEC9A04B520A53F7DC4E6D3478 /* ScrollHorizontally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B264B0D14ECD06C9EFF59DC7BF92E6 /* Build configuration list for PBXNativeTarget "ScrollHorizontally" */;
+			buildPhases = (
+				8272E6B460865804BFBB75F56722DC89 /* Sources */,
+				C5222CE1E0001FE5B8D07577F0DA0E0F /* Frameworks */,
+				0ABA8F2EC929EB148F1D2B0E33648FAA /* Resources */,
+				48A6B1AC100B345BFE26B765C76686C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollHorizontally;
+			productName = ScrollHorizontally;
+			productReference = 0ADC7CDB83E215F1531A450BD5051E32 /* ScrollHorizontally.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 446A7A6A1B3D24F02C019D3284416E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35DAF3110E2E02B2C67DBEA43E74D56E /* Pods-ScrollHorizontally_Example */,
+				8CD9A6D28E46E706DCFE7E02478E1DC3 /* Pods-ScrollHorizontally_Tests */,
+				97C4F0BEC9A04B520A53F7DC4E6D3478 /* ScrollHorizontally */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ABA8F2EC929EB148F1D2B0E33648FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6FFE52EB5F1F73599136ED88FB39A7 /* ScrollHorizontallyCell.swift in Resources */,
+				2C413F9502D40F1EDBFD99B1B354F69D /* ScrollHorizontallyCell.xib in Resources */,
+				EA13A30911D182D1049C1F437202FC1D /* ScrollHorizontallyView.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8272E6B460865804BFBB75F56722DC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB381463E39F212F3899F9D8EBCC93E1 /* ScrollHorizontally-dummy.m in Sources */,
+				EFADAF6162BDA70BD642D2F5381B8C3D /* ScrollHorizontallyCell.swift in Sources */,
+				1472C18AFEA53C4CEB5118FBD2C264FF /* ScrollHorizontallyCell.xib in Sources */,
+				A37726815370A8BA9B7B672B3DB25A84 /* ScrollHorizontallyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D5CD1AC87FC34DB52D4EB203D33E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB88CF4241063CE9B84A348F3CFC5CB /* Pods-ScrollHorizontally_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF000D9D4D900ED2A568A0BAD79C076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A09864BC13973DBCD1B90D36B45AAF1 /* Pods-ScrollHorizontally_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3FC58C8266D3029083D5E38D77E00F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScrollHorizontally;
+			target = 97C4F0BEC9A04B520A53F7DC4E6D3478 /* ScrollHorizontally */;
+			targetProxy = D5E97E82649A3526B0135AAB110E12E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F1371A05D464096EE66E4DDCEBAA878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6760BE222F1B4664868F64503FBC81E /* Pods-ScrollHorizontally_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollHorizontally_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollHorizontally_Tests/Pods-ScrollHorizontally_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollHorizontally_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		687EAD8492747C3C26DDE38652A08016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAAEC6F0C3039E263788854FCFA237C /* Pods-ScrollHorizontally_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollHorizontally_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollHorizontally_Example/Pods-ScrollHorizontally_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollHorizontally_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839A043DE1A59D6D0D854589157324C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FAE855E90D56E1D663F280CFA73288 /* Pods-ScrollHorizontally_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollHorizontally_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollHorizontally_Example/Pods-ScrollHorizontally_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollHorizontally_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B0663A4305F87D7A2F11449BBF8AEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E304D739FFDADB00785B2E8C8BAD44 /* Pods-ScrollHorizontally_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollHorizontally_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollHorizontally_Tests/Pods-ScrollHorizontally_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollHorizontally_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A84A23FBBA3FA4AE92210CAF266206D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2337427A4EA4B9372D91C0986AEA1BB /* ScrollHorizontally.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollHorizontally/ScrollHorizontally-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollHorizontally/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollHorizontally/ScrollHorizontally.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ScrollHorizontally;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1127009C290BF0ABD1632CCE168B8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2337427A4EA4B9372D91C0986AEA1BB /* ScrollHorizontally.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollHorizontally/ScrollHorizontally-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollHorizontally/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollHorizontally/ScrollHorizontally.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ScrollHorizontally;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D1D37D96ACB828817F84F21482EF6A /* Build configuration list for PBXNativeTarget "Pods-ScrollHorizontally_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A043DE1A59D6D0D854589157324C9 /* Debug */,
+				687EAD8492747C3C26DDE38652A08016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB902B49715E47D12374AA95BB1C687 /* Build configuration list for PBXNativeTarget "Pods-ScrollHorizontally_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0663A4305F87D7A2F11449BBF8AEA3 /* Debug */,
+				3F1371A05D464096EE66E4DDCEBAA878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B264B0D14ECD06C9EFF59DC7BF92E6 /* Build configuration list for PBXNativeTarget "ScrollHorizontally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1127009C290BF0ABD1632CCE168B8E0 /* Debug */,
+				A84A23FBBA3FA4AE92210CAF266206D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

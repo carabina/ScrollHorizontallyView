@@ -1,0 +1,16 @@
+PODS:
+  - ScrollHorizontally (0.1.0)
+
+DEPENDENCIES:
+  - ScrollHorizontally (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollHorizontally:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScrollHorizontally: b1eb1e4309d31d7baafe11298c17ae25f3f3172b
+
+PODFILE CHECKSUM: 38e34631334fc3e4a52da94e8b68d54c3b71b8c0
+
+COCOAPODS: 1.2.1

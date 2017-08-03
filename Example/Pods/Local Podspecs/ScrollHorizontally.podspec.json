@@ -1,0 +1,23 @@
+{
+  "name": "ScrollHorizontally",
+  "version": "0.1.0",
+  "summary": "A short description of ScrollHorizontally.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jiexiang/ScrollHorizontally",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jiexiang": "jiexiang617@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jiexiang/ScrollHorizontally.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ScrollHorizontally/Classes/**/*",
+  "resources": "ScrollHorizontally/Classes/**/*"
+}

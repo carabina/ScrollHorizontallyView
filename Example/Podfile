@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ScrollHorizontally_Example' do
+  pod 'ScrollHorizontally', :path => '../'
+
+  target 'ScrollHorizontally_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
